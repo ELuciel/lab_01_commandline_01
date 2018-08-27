@@ -17,7 +17,13 @@ $ ls<ENTER>
 
 Copy and paste the output of ls below.
 ----------
-
+Adlm			MPLABXProjects		Things
+Adobe			Movies			ipe.properties
+Applications		Music			isus
+Desktop			New Unity Project	pymel.log
+Documents		Pictures		xgen
+Downloads		Public
+Library			QLData
 
 
 ==========
@@ -27,18 +33,25 @@ $ ls D<TAB>
 
 What happens?  Describe it below.
 ----------
-
+it shows all folders that starts with the letter d
 
 
 ==========
 2b. Press <TAB> one more time.  Copy and paste the output below.
 ----------
-
+Desktop/   Documents/ Downloads/ 
+ent-v314-011:~ student$ ld D
+Desktop/   Documents/ Downloads/ 
+ent-v314-011:~ student$ ld D
 
 
 ==========
 2c. Now press <ENTER>. Copy and paste the output below.
 ----------
+
+ld: file not found: D
+
+
 
 
 
@@ -49,6 +62,8 @@ $ ls -l Documents<ENTER>
 
 Copy and paste the first *two lines* of output below.
 ----------
+drwxr-xr-x   8 student  staff   272 Jan 17  2018 Ableton
+drwxrwxrwx  14 student  staff   476 Jan 17  2018 Adobe
 
 
 
@@ -59,6 +74,8 @@ $ ls -a Documents
 
 Copy and paste the first *two lines* of output below.
 ----------
+.			Avid Projects		Processing
+..			Fritzing		REAPER Media
 
 
 
@@ -69,7 +86,7 @@ Copy and paste the first *two lines* of output below.
 
 What command was repeated?
 ----------
-
+ls -a documents
 
 
 ==========
@@ -79,7 +96,7 @@ What command was repeated?
 
 What command was repeated?
 ----------
-
+ls -l documents
 
 
 ==========
@@ -89,7 +106,7 @@ $ ls /Vol<TAB><ENTER>
 
 What is the result of pressing tab?
 ----------
-
+It auto spells the word
 
 
 ==========
@@ -99,37 +116,38 @@ $ ls doesnotexist
 
 Copy and paste the output below.
 ----------
-
+ls: doesnotexist: No such file or directory
 
 
 ==========
 9.  What key do I press to go to the previous command?
 ----------
-
+up arrow key
 
 
 ==========
 10.  Name two flags that we used in this exercise.
 ----------
-
+ls -a
+ls-p
 
 
 ==========
 11.  What key do I use to attempt to autocomplete a command or a file name?
 ----------
-
+tab
 
 
 ==========
 12.  What was the main command that we used throughout this exercise?
 ----------
-
+ls
 
 
 ==========
 13.  Name one argument that we passed to the command.
 ----------
-
+ls -a
 
 
 ==========
@@ -139,7 +157,7 @@ $ foo<ENTER>
 
 Copy and paste the output below.
 ----------
-
+-bash: foo: command not found
 
 
 ==========
@@ -150,7 +168,7 @@ Copy and paste the output below.
 Copy and paste the output below.
 ----------
 
-
+-bash: foo: command not found
 
 ==========
 16.  In the following line....
@@ -159,3 +177,7 @@ $ ls -a Desktop
 
 What is the command, flag, argument, and prompt?
 ----------
+command is ls
+the prompt is the $
+flag is -a
+argument is desktop
